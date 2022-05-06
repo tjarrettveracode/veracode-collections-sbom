@@ -153,4 +153,4 @@ cython_debug/
 helpers/__pycache__/api.cpython-37.pyc
 
 # output files
-.json
+*.json
