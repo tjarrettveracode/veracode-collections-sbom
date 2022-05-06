@@ -35,5 +35,5 @@ Otherwise you will need to set environment variables:
 
 Arguments supported include:
 
-* --collectionsid, -c  (required): Collections guid for which to create a report.
-* --prompt, -p (optional): Specify to be prompted to search by collection name.
+* `--collectionsid`, `-c` (required if `--prompt` is not used): Collections guid for which to create a report.
+* `--prompt`, `-p` (optional): Specify to be prompted to search by collection name.
