@@ -67,7 +67,7 @@ def get_sboms(assets):
     #TODO add a try around the get and handle the 401 exception when no sbom exists
     sboms = []
     for asset in assets:
-        this_app = asset['guid']
+        this_app = asset['asset_info']['guid']
         try:
             sboms.append(SBOM().get(this_app))
         except RequestException:
