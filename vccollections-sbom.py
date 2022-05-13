@@ -115,19 +115,19 @@ def generate_sbom(sboms,collection):
     # add all vulnerabilities to the vulnerabilities section
     vulns = []
     for sbom in sboms:
-        vulns.append(sbom['vulnerabilities'])
+        vulns = vulns + sbom['vulnerabilities']
     the_sbom['vulnerabilities'] = vulns
 
     # add all components to the components section
     comps = []
     for sbom in sboms:
-        comps.append(sbom['components'])
+        comps = comps + sbom['components']
     the_sbom['components'] = comps
 
     #add all existing dependencies to the depedencies section
     deps = []
     for sbom in sboms:
-        deps.append(sbom['dependencies'])
+        deps = deps + sbom['dependencies']
     the_sbom['dependencies'] = deps
 
     # generate dependencies between apps and components
