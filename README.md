@@ -1,4 +1,6 @@
 # Veracode Collections SBOM
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftjarrettveracode%2Fveracode-collections-sbom.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftjarrettveracode%2Fveracode-collections-sbom?ref=badge_shield)
+
 
 Generate a CycloneDX SBOM across multiple applications that are part of a Veracode Collection.
 
@@ -37,3 +39,7 @@ Arguments supported include:
 
 * `--collectionsid`, `-c` (required if `--prompt` is not used): Collections guid for which to create a report.
 * `--prompt`, `-p` (optional): Specify to be prompted to search by collection name.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftjarrettveracode%2Fveracode-collections-sbom.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftjarrettveracode%2Fveracode-collections-sbom?ref=badge_large)
